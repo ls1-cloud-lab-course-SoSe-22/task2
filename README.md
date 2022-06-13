@@ -43,7 +43,8 @@ The client process is to be run as follows for the tests to succeed:
 The client should return the following values:
 
 - 0 : for a successful `PUT` or `GET` operation.
-- 1: `PUT` or `GET` failed.
+- 1 : `PUT` or `GET` failed.
+- 2 : `GET` failure as key doesn't exist
 
 ### Server
 
