@@ -32,7 +32,7 @@ def run_client(port: int, operation: str, key: int, value: int, master_port: int
                 "-k", str(key),
                 "-v", str(value),
                 "-m", str(master_port),
-                "-d", str(0),
+                "-d", str(direct),
             ],
             stdout=stdout,
             check=False
