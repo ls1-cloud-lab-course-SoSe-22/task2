@@ -49,6 +49,16 @@
       "comparison": "included",
       "timeout": 10,
       "points": 10
+    },
+    {
+      "name": "Test health check",
+      "setup": "",
+      "run": "timeout -s9 10m python3 tests/test_health_check.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": null
     }
   ]
 }
